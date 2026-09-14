@@ -5,6 +5,7 @@ const links = [
   { href: "/mentions-legales", label: "Mentions légales" },
   { href: "/cgu", label: "CGU" },
   { href: "/politique-confidentialite", label: "Confidentialité" },
+  { href: "/securite-des-mineurs", label: "Protection des mineurs" },
   { href: "/suppression-compte", label: "Supprimer un compte" },
 ];
 
@@ -27,7 +28,7 @@ export function LegalLayout({ title, intro, children }: { title: string; intro: 
           </article>
         </div>
       </main>
-      <footer className="site-footer">© YuMan · <Link href="/mentions-legales">Mentions légales</Link> · <Link href="/cgu">CGU</Link> · <Link href="/politique-confidentialite">Confidentialité</Link></footer>
+      <footer className="site-footer">© YuMan · <Link href="/mentions-legales">Mentions légales</Link> · <Link href="/cgu">CGU</Link> · <Link href="/politique-confidentialite">Confidentialité</Link> · <Link href="/securite-des-mineurs">Protection des mineurs</Link></footer>
     </>
   );
 }
